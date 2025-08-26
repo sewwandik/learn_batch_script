@@ -1,0 +1,5 @@
+Some special things to know..
+
+1. can't put spaces to variables.
+set age = 20 (wrong)
+set age=20 (correct)
