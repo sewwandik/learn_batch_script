@@ -1,5 +1,43 @@
 Some special things to know..
 
-1. can't put spaces to variables.
+1) can't put spaces to variables.
 set age = 20 (wrong)
 set age=20 (correct)
+
+2) /p --> user inputs
+set /p name=Enter your name:
+
+3) if condition(
+
+) else (
+
+)
+--------------------------------
+
+
+if %age% GEQ 18(
+	echo You are an adult.
+)else(
+	echo You are a minor.
+)
+--------------------------------
+
+if %val% LSS 0 (
+    echo Negative
+) else if %val% EQU 0 (
+    echo Zero
+) else if %val% GTR 0 (
+    echo Positive
+)
+--------------------------------
+
+4) Relational operators -->
+EQU --> equal to
+NEQ --> not equal to
+LSS --> less than
+LEQ --> less than or equal
+GTR --> grater than
+GEQ --> greater than or equal
+can use these operators both strings and numbers
+
+5) 
